@@ -85,3 +85,53 @@
 // 20.	Convert NodeList-like object using Array.from.
 
 // let arr = Array.from(document.querySelectorAll(".item"));
+// 21.	Remove 2 elements starting index 2.
+// let nums=[500,600,900,800,300,100,400,700];
+// nums.splice(0,2)
+// console.log(nums);
+// 22.	Add two numbers at index 3.
+// let nums=[500,600,900,800,300,100,400,700];
+// nums.splice(0,3,1,2,3)
+// console.log(nums);
+// 23.	Slice last 4 values.
+// let nums=[500,600,900,800,300,100,400,700];
+// let check=nums.slice(0,5);
+// console.log(check);
+// 24.	Find first even number.
+
+// function number(nums){
+//     let check=nums.map((nums)=>{
+//         if(nums%2==0){
+//         return (`${nums} is even`)
+//     }else {
+//         return(`${nums} is odd`)
+//     }
+//     })
+//     return check
+// }
+// console.log(number([955,600,900,800,300,100,400,700]));
+// 25.	Find index of value > 20.
+// let  arr=[20,15,2,50]
+// let index=arr.findIndex(nums=>nums>20)
+// console.log(index);
+// 26.	Sort descending.
+// let arr=[20,23,8,60,2,1,3]
+// arr.sort((a,b)=>b-a)
+// console.log(arr);
+// 27.	Join words with space.
+// let word =["elephent","pen", "pencil","horse","apple"];
+// let join=word.join(" ")
+// console.log(join);
+// 28.	Combine names + surnames arrays.
+// let name="pawan";
+// let surname="grover";
+// let fullname=name.concat(surname)
+// console.log(fullname);
+// 29.	Remove middle element.
+// let word =["elephent","pen", "pencil","horse","apple"];
+// word.splice(2,2)
+// console.log(word);
+// 30.	Check "JS" exists.
+// let word =["elephent","pen", "js","pencil","horse","apple"];
+// let arr=word.includes("js")
+// console.log(arr);
