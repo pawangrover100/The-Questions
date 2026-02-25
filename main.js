@@ -135,3 +135,48 @@
 // let word =["elephent","pen", "js","pencil","horse","apple"];
 // let arr=word.includes("js")
 // console.log(arr);
+// 31.	Add at start & end.
+// let arr =["apple","banana","wlephent","tiger"];
+// arr.unshift("lion")
+// arr.push("pen")
+// console.log(arr);
+// 32.	Remove first & last.
+// let nums=[100,200,300,400,500,600,700,800,900];
+// nums.pop(900)
+// nums.shift(100)
+// console.log(nums);
+// 33.	Extract between index 2–5.
+// let nums = [100, 200, 300, 400, 500, 600, 700, 800, 900];
+// let arr=nums.slice(2,5)
+// console.log(arr);
+// 34.	Create array from "12345" and convert to numbers.
+// let nums="12345"
+// let newnums=Number(nums)
+// console.log( newnums);
+// console.log(typeof newnums);
+// 35.	Find first word longer than 5 letters.
+// let word =["elephent","pen", "js","pencil","horse","apple"];
+// let newarr=word.find(word=>
+//  word.length>5
+// )
+// console.log(newarr);
+// 36.	Insert "X" "Y" at middle.
+// let word =["elephent","pen", "js","pencil","horse","apple"];
+// word.splice(3,0,"x","y")
+// console.log(word);
+// 37.	Remove all elements except first 2.
+//  let word =["elephent","pen", "js","pencil","horse","apple"];
+//  word.splice(2)
+//  console.log(word);
+// 38.	Clone array using slice.
+// let word =["elephent","pen", "js","pencil","horse","apple"];
+// let clone=word.slice(1)
+// console.log(clone);
+// 39.	Sort objects by age.
+// let age =[25,30,60,40,50,21,64,70]
+// let result=age.sort()
+// console.log(result);
+// 40.	Find user with id 3.
+// let ids=[6,3,8,7,5,2,1,6,];
+// let newids=ids.find(num=> num===3);
+// console.log(`id ${newids}`);
