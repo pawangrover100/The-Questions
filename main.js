@@ -321,3 +321,245 @@
 //  let nums=[40,20]
 //  let result=nums.reduce((a,b)=>a*b,1)
 //  console.log(result);
+
+// //duplicate value found
+// 1
+// let num= [1, 2, 2, 3, 4, 4];
+// let found=[];
+// for(let i=0; i<num.length; i++){
+//  if(!found.includes(num[i])){
+//     found.push(num[i])
+//  }   
+// }
+// console.log(found);
+
+// 2️
+// let alphbat=["a", "b", "a", "c", "b"]
+// let found=[];
+// for(let i=0; i<alphbat.length; i++){
+//     if(!found.includes(alphbat[i])){
+//         found.push(alphbat[i])
+//     }
+// }
+// console.log(found);
+// let found=new Set(alphbat)
+// console.log(found);
+
+// 3️
+// let nums=[5, 5, 5, 5]
+// let found=[];
+// for(let i=0; i<nums.length; i++){
+//     if(!found.includes(nums[i])){
+//         found.push(nums[i])
+//     }
+// }
+// console.log(found);
+
+// // 4️
+// let duplicate=[1, "1", 2, "2", 1]
+// let found=[];
+// for(let i=0; i<duplicate.length; i++){
+//     if(!found.includes(duplicate[i])){
+//         found.push(duplicate[i])
+//     }
+// }
+// console.log(found);
+// 5️
+// let fruits=["apple", "banana", "apple", "orange"]
+// let duplicate=[];
+// for(let i=0; i<fruits.length; i++){
+//     if(!duplicate.includes(fruits[i])){
+//         duplicate.push(fruits[i])
+//     }
+
+// }
+// console.log(duplicate);
+
+// 6️
+// let Boolean=[true, false, true, false]
+// let duplicates=[];
+// for(let i=0; i<Boolean.length; i++){
+//     if(!duplicates.includes(Boolean[i])){
+//         duplicates.push(Boolean[i])
+//     }
+// }
+// console.log(duplicates);
+// 7️
+// let count=[10, 20, 10, 30, 20]
+// let found=[];
+// for(let i=0; i<count.length; i++){
+//     if(!found.includes(count[i])){
+//         found.push(count[i])
+//     }
+// }
+// console.log(found);
+// let count=[10, 20, 10, 30, 20]
+// let found=count.includes(10)
+// console.log(found);
+
+// 8️
+// let strings=["js", "html", "css", "js"];
+// let found=[];
+// for(let i=0; i<strings.length; i++){
+//     if(!found.includes(strings[i])){
+//         found.push(strings[i])
+//     }
+// }
+// console.log(found);
+// 9️
+// let value=[null, null, 1, 2]
+// let found=[];
+// for(let i=0; i<value.length; i++){
+//     if(!found.includes(value[i])){
+//         found.push(value[i])
+//     }
+// }
+// console.log(found);
+
+// 10
+// let boolean=[undefined, 1, undefined, 2]
+// let duplicate=[];
+// for(let i=0; i<boolean.length; i++){
+//     if(!duplicate.includes(boolean[i])){
+//         duplicate.push(boolean[i])
+//     }
+// }
+// console.log(duplicate);
+// 11
+// let alphbat=["A", "a", "A", "a"]
+// let duplicate=[];
+// for (let i=0; i<alphbat.length; i++){
+//     if(!duplicate.includes(alphbat[i])){
+//         duplicate.push(alphbat[i])
+//     }
+// }
+// console.log(duplicate);
+// 12
+// let nums=[100, 90, 100, 80, 90]
+// let found=[];
+// for(let i=0; i<nums.length; i++){
+//     if(!found.includes(nums[i])){
+//         found.push(nums[i])
+//     }
+// }
+// console.log(found);
+// 13
+// let strings=["pen", "pencil", "pen", "eraser"]
+// let arr=[];
+// for(let i=0; i<strings.length; i++){
+//     if(!arr.includes(strings[i])){
+//         arr.push(strings[i])
+//     }
+// }
+// console.log(arr);
+// 14
+// let nums=[1, 2, 3, 4, 5,5]
+// let newarr=[];
+// for(let i=0; i<nums.length; i++){
+//     if(!newarr.includes(nums[i])){
+//         newarr.push(nums[i])
+//     }
+// }
+// console.log(newarr);
+// 15
+// let color=["red", "green", "blue", "green"]
+// let newcolor=[];
+// for(let i=0; i<color.length; i++){
+//     if(!newcolor.includes(color[i])){
+//         newcolor.push(color[i])
+//     }
+// }
+// console.log(newcolor);
+//16
+// let nums=["10", 10, "20", 20]
+// let check=[];
+// for(let i =0; i<nums.length; i++){
+//     if(!check.includes(nums[i] ){
+//         check.push(nums[i])
+//     }
+// }
+// console.log(check);
+// 17
+// let value=[NaN, NaN, 1, 2]
+// let newvalue=[];
+// for(let i=0; i<value.length; i++){
+//     if(!newvalue.includes(value[i])){
+//         newvalue.push(value[i])
+//     }
+// }
+// console.log(newvalue);
+// 18
+// let arr=["", "", "a", "b"]
+// let newarr=[];
+// for(let i=0; i<arr.length; i++){
+//     if(!newarr.includes(arr[i]))
+//     {
+//         newarr.push(arr[i])
+//     }
+// }
+// console.log(newarr);
+// 19
+// let boolean=[0, false, 0, false]
+// let newarr=[];
+// for(let i = 0; i < boolean.length; i++){
+//     if(!newarr.includes(boolean[i])){
+//         newarr.push(boolean[i])
+//     }
+// }
+// console.log(newarr);
+// 20
+// let animels=["dog", "cat", "dog", "bird"]
+// let newline=[];
+// for(let i = 0 ; i < animels.length; i++){
+//     if(!newline.includes(animels[i])){
+//         newline.push(animels[i])
+//     }
+// }
+// console.log(newline);
+// 21
+// let nums=[3, 1, 2, 3, 1]
+// let newline=[];
+// for(let i=0; i<nums.length; i++){
+//     if(!newline.includes(nums[i])){
+//         newline.push(nums[i])
+//     }
+// }
+// console.log(newline);
+
+// 22
+// let common=["js", "JS", "js"]
+// let module=[];
+// for(let i=0; i<common.length; i++){
+//     if(!module.includes(common[i])){
+//         module.push(common[i])
+//          }
+// }
+// console.log(module);
+// 23
+// let boolean=[true, true, false]
+// let arr=[];
+// for(let i=0; i<boolean.length; i++){
+//     if(!arr.includes(boolean[i])){
+//         arr.push(boolean[i])
+//     }
+// }
+// console.log(arr);
+// 24
+// let nums=[7, 8, 9, 7, 8]
+// let arr=[];
+// for(let i =0; i<nums.length; i++){
+//     if(!arr.includes(nums[i])){
+//         arr.push(nums[i])
+//     }
+// }
+// console.log(arr);
+// 25
+// let hellow=["hello", "world", "hello"]
+// let arr=[];
+// for(let i=0; i<hellow.length; i++){
+//     if(!arr.includes(hellow[i])){
+//         arr.push(hellow[i])
+//     }
+// }
+
+// console.log(arr);
