@@ -563,3 +563,98 @@
 // }
 
 // console.log(arr);
+// “Remove negative numbers using splice”
+// 🔹 Practice Questions (Use splice())
+// 1
+// let nums=[5, -2, 8, -1, 10]
+// for(let i=nums.length-1; i>0; i--){
+//     if(nums[i] < 0){
+//         nums.splice(i,1)
+//     }
+// }
+
+//  console.log(nums);
+// 2
+// let nums=[-5, -10, 15, 20]
+// let newarr=nums.filter(item=>item>0)
+// console.log(newarr);
+
+// 3
+// let arr=[1, 2, 3, -3, -4, 5]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 4
+// let nums=[-1, -2, -3, -4,1]
+// let newarr=nums.filter(item=>item>0)
+// console.log(newarr);
+// 5
+// let arr=[100, -50, 200, -150, 300]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 6
+// let nums=[0, -1, 2, -3, 4]
+// let arr=nums.filter(item=>item>0)
+// console.log(arr);
+// 7
+// let arr=[-10, 10, -20, 20]
+// let found=arr.filter(item=>item>0)
+// console.log(found);
+// 8
+// let arr=[7, -7, 14, -14]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 9
+// let nums=[50, 60, -70, 80, -90]
+// let arr=nums.filter(item=>item>0)
+// console.log(arr);
+// 10
+// let arr=[-100, 200, -300, 400]
+// let found=arr.filter(item=>item>0)
+// console.log(found);
+// 11
+// let arr=[9, -9, 8, -8, 7]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// // 12
+// let arr=[-5, 5, -5, 5]
+// let found=arr.filter(item=>item>0)
+// console.log(found);
+// 13
+// let arr=[1, -1, 1, -1, 1]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 14
+// let arr=[-2, 4, -6, 8, -10]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 15
+// let nums=[15, -5, 25, -15, 35]
+// let newarr=nums.filter(item=>item>0)
+// console.log(newarr);
+// 16
+// let arr=[-3, -6, 9, 12]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 17
+// let arr=[11, -22, 33, -44, 55]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 18
+// let jump=[-7, 14, -21, 28]
+// let go=jump.filter(item=>item>0)
+// console.log(go);
+// 19
+// let arr=[2, -4, 6, -8, 10]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// 20
+// let arr=[-1, 0, 1, -2, 2]
+// let newarr=arr.filter(item=>item>0)
+// console.log(newarr);
+// //  Rule Reminder (Logic Same Hoga)
+// // for (let i = arr.length - 1; i >= 0; i--) {
+// //     if (arr[i] < 0) {
+// //         arr.splice(i, 1);
+// //     }
+// // }
+
