@@ -208,8 +208,6 @@
 // let arr=new Set("javascript");
 // let newarray=Array.from(arr)
 // console.log(newarray);
-
-
 // 45.	Replace 2 elements starting index 1.
 // let value=["500","pawan", "pawan grover", "pawan", "grover","grover","100","200","500","hero"]
 // value.splice(1,2,"horse","dog")
@@ -231,7 +229,7 @@
 //  let nums=[100,-200,300,-400,-500,600,-700,800,900];
 //  nums.splice(0,0,"pawan grover","bjp","tesla motor","ratan tata","whats going on");
 //  console.log(nums);
- // 49.	Slice without using negative indexes to get last 3.
+// 49.	Slice without using negative indexes to get last 3.
 //   let nums=[100,-200,300,-400,-500,600,-700,800,900];
 //   let slice=nums.slice(nums.length-3);
 //   console.log(slice);
@@ -329,7 +327,7 @@
 // for(let i=0; i<num.length; i++){
 //  if(!found.includes(num[i])){
 //     found.push(num[i])
-//  }   
+//  }
 // }
 // console.log(found);
 
@@ -658,3 +656,127 @@
 // //     }
 // // }
 
+// 📘 JavaScript Array Methods – 25 Proper Questions
+
+// map() method का उपयोग करके एक array के सभी elements का square निकालने का program लिखिए।
+// let num=[1,2,3,4,5,6,7,8,9]
+// let arr=num.map(n=>n*n)
+// console.log(arr);
+
+// filter() method की मदद से एक array में से सभी even numbers को अलग कीजिए।
+// let num=[1,2,3,4,5,6,7,8,9]
+// let even=num.filter(item=>item%2==0)
+// console.log(even);
+// reduce() method का उपयोग करके array के सभी numbers का sum निकालने का code लिखिए।
+//  let num=[1,2,3,4,5,6,7,8,9]
+//  let sum=num.reduce((a,b)=>a+b)
+//  console.log(sum);
+// reduce() method का उपयोग करके array में से सबसे बड़ी value (maximum) खोजिए।
+//  let num=[1,2,3,4,5,6,7,8,9]
+//  let maxvalue=num.reduce((max,curr)=>{
+//     return curr>max ? curr:max},num[0])
+//  console.log(maxvalue);
+// find() method का उपयोग करके array का पहला element खोजिए जो 50 से बड़ा हो।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,]
+// let find=num.find((n)=>n>50)
+// console.log(find);
+// findIndex() method की सहायता से किसी दिए गए element का index निकालिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,]
+// let index=num.findIndex((n)=>n==52)
+// console.log(index);
+// includes() method का उपयोग करके जाँच कीजिए कि कोई value array में मौजूद है या नहीं।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,]
+// let checkit=num.includes(65)
+// console.log(checkit);
+// some() method का उपयोग करके यह जाँचिए कि array में कोई भी negative number मौजूद है या नहीं।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25]
+// let arr=num.some((n)=>{
+//     return n<0
+// })
+// console.log(arr);
+// every() method का उपयोग करके यह verify कीजिए कि array के सभी numbers positive हैं।
+// let numbers = [10, 5, 3, 8, 2];
+// let allPositive = numbers.every(num => num > 0);
+// console.log(allPositive);
+// sort() method की सहायता से numbers को ascending order में sort कीजिए।
+//  let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25]
+//  let arr=num.sort((a,b)=>
+//     a-b
+//  )
+//  console.log(arr);
+// sort() method का उपयोग करके strings को alphabetical order में व्यवस्थित कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25]
+//  let arr=num.sort((a,b)=>
+//     b-a
+//  )
+//  console.log(arr);
+// reverse() method की मदद से array के elements का क्रम उल्टा कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25]
+//  let arr=num.reverse()
+
+//  console.log(arr);
+// slice() method का उपयोग करके array के बीच का हिस्सा निकालिए।
+//  let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25]
+// let arr=num.slice(2,5)
+// console.log(arr);
+
+// splice() method की सहायता से array में एक नया element add कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25];
+// num.splice(2,0,"grover");
+// console.log(num);
+// splice() method का उपयोग करके array से किसी element को delete कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,-25];
+// num.splice(2,1)
+// console.log(num);
+// concat() method की मदद से दो arrays को merge कीजिए।
+// let a=[12345];
+// let b=[678910];
+// let arr=a.concat(b)
+// console.log(arr);
+// flat() method का उपयोग करके nested array को single-level array में बदलिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25,[23,40]];
+// let arr=num.flat()
+// console.log(arr);
+// join() method की सहायता से array को string में convert कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let arr=num.join()
+// console.log(arr);
+// split() और join() methods का उपयोग करके किसी string को reverse करने का program लिखिए।
+// let str="hellow pawan grover";
+// let reverse=str.split("").reverse().join()
+// console.log(reverse);
+
+// Array.from() method का उपयोग करके string को array में convert कीजिए।
+// let str="hellow pawan grover";
+// let arr=Array.from(str)
+// console.log(arr);
+// Set और Array.from() का उपयोग करके array से duplicate values हटाइए।
+// let num="pawan grover";
+// let dup=Array.from(num);
+// let str=new Set(dup)
+// console.log(str);
+
+
+// let str = "pawan grover";
+// let uniqueArray = Array.from(new Set(str));
+// console.log(uniqueArray);
+// push() और pop() methods के बीच अंतर उदाहरण सहित समझाइए।
+// let str=["pawan","grover"];
+// str.pop()
+// str.push("hellow")
+// console.log(str);
+// // shift() और unshift() methods का उपयोग करके array में element add और remove कीजिए।
+// let str=["grover"]
+// str.unshift("pawan")
+// console.log(str);
+
+// let arr=["pawan", "grover"]
+// arr.shift()
+// console.log(arr);
+// indexOf() method का उपयोग करके array में किसी element को search कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let arr=num.indexOf(52)
+// console.log(arr);
+// forEach() method का उपयोग करके array के सभी elements को print कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// num.forEach((num)=>{console.log(num)})
