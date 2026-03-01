@@ -780,3 +780,137 @@
 // forEach() method का उपयोग करके array के सभी elements को print कीजिए।
 // let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
 // num.forEach((num)=>{console.log(num)})
+
+// 📘 JavaScript Array Methods – Next 25 Questions (Set-2)
+
+// map() method का उपयोग करके एक array के सभी elements को string में convert कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// num.map((n)=>String(n)) //toString() method
+// console.log(num);
+// filter() method की सहायता से array में से सभी values निकालिए जो 10 से बड़ी हों।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let arr=num.filter(item=>item>10)
+// console.log(arr);
+// reduce() method का उपयोग करके array का average निकालने का program लिखिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let sum=num.reduce((a,b)=>a+b,0);
+// let average=sum%num.length
+// console.log(average);
+// reduce() method की मदद से array में total even numbers की count निकालिए।
+// let num = [1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let count = num.reduce((acc, curr) => {
+//   return curr % 2 === 0 ? acc + 1 : acc;
+// }, 0);
+// console.log(count);
+// find() method का उपयोग करके array का पहला even number खोजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let even=num.filter(item=>item%2==0).length
+// console.log(even);
+// findIndex() method की सहायता से पहले negative number का index निकालिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,-33,45,25];
+// let index=num.findIndex(n=>n<0)
+// console.log(index);
+
+// // includes() method और indexOf() method में अंतर समझाइए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,-33,45,25];
+// let arr=num.includes(11)
+// console.log(arr);
+
+// let newarr=num.indexOf(11)
+// console.log(newarr);
+// some() method का उपयोग करके यह जाँचिए कि कोई भी value string type की है या नहीं।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,-33,45,25];
+// let arr=num.some((n)=>typeof n==="string")
+// console.log(arr);
+// every() method की मदद से यह verify कीजिए कि array के सभी elements numbers हैं।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,-33,45,25];
+// let arr=num.every((n)=>typeof n==="number")
+// console.log(arr);
+// // sort() method का उपयोग करके array को descending order में sort कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,-33,45,25];
+// let descending=num.sort((a,b)=>b-a)
+// console.log(descending);
+// sort() method के साथ compare function क्यों आवश्यक होता है? समझाइए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,-33,45,25];
+// let descending=num.sort((a,b)=>a-b)
+// console.log(descending);
+// reverse() method original array को mutate करता है या नहीं? उदाहरण सहित बताइए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// num.reverse()
+// console.log(num); yes
+// slice() और splice() methods में अंतर उदाहरण सहित समझाइए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let slice=num.slice(2,9)
+// console.log(slice);
+
+// num.splice(3,2,100,200)
+// console.log(num);
+// // splice() method का उपयोग करके array के बीच में element insert कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// num.splice(7,0,100,200,300)
+// console.log(num);
+// concat() method original array को change करता है या नहीं? समझाइए।
+// let a=[12345]
+// let b=[6789]
+// let concat=a.concat(b)
+// console.log(concat); //no
+// flat() method में depth parameter का क्या उपयोग है? उदाहरण दीजिए।
+// let arr = [1, 2, [3, 4], [5, 6]];
+// let result = arr.flat();
+// console.log(result);
+// join() method में default separator क्या होता है? उदाहरण सहित बताइए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// num.join()
+// console.log(num);
+// Array.from() और split() method में अंतर समझाइए।
+// let num="javaSrcript";
+// let arr=Array.from(num)
+// console.log(arr);
+// let nums="javaSrcript";
+// let split=nums.split("")
+// console.log(split);
+// Set का उपयोग करके duplicate elements कैसे हटाए जाते हैं? program लिखिए।
+// let str="JavaScritp";
+// let arr=new Set(str)
+// console.log(arr);
+// push() और unshift() में अंतर उदाहरण सहित समझाइए।
+// let str=["pawan"]
+// str.push("grover");
+// str.unshift("hellow")
+// console.log(str);
+
+// pop() और shift() methods में अंतर बताइए।
+// let str=["hellow","pawan","grover"]
+// str.pop("grover");
+// str.shift("hellow")
+// console.log(str);
+// indexOf() और lastIndexOf() methods का उपयोग करके element search कीजिए।
+// let num=[1,2,11,3,4,5,6,7,8,9,65,52,88,33,45,25];
+// let arr=num.indexOf(52)
+// let last=num.lastIndexOf(25)
+// console.log(arr);
+// console.log(last);
+// forEach() और map() methods में मुख्य अंतर क्या है?
+// let num = [1, 2, 3, 4];
+
+// num.forEach(n => {
+//   console.log(n * 2);
+// });
+// num.map(n=>n+5)
+// console.log(num);
+// for...of loop और forEach() method में अंतर बताइए।
+// let arr = [1, 2, 3, 4];
+
+// for (let value of arr) {
+//   if (value === 3) break;
+//   console.log(value);
+// }
+
+// let num = [1, 2, 3, 4];
+// num.forEach(value => {
+//   if (value === 3) return;
+//   console.log(value);
+// });
+// isArray() method का उपयोग करके यह जाँचिए कि दिया गया data array है या नहीं।
+// let data = [10, 20, 30];
+// console.log(Array.isArray([10, 20, 30]));
