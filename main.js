@@ -913,4 +913,81 @@
 // });
 // isArray() method का उपयोग करके यह जाँचिए कि दिया गया data array है या नहीं।
 // let data = [10, 20, 30];
-// console.log(Array.isArray([10, 20, 30]));
+// // console.log(Array.isArray([10, 20, 30]));
+
+// 📘 JavaScript Array Methods – Next 25 Questions (Set-3)
+
+// map() method का उपयोग करके array के सभी elements में 5 जोड़कर नया array बनाइए।
+// let num=[10,20,30,40,50,60,70,80,90]
+// let add=num.map((n)=>n+5)
+// console.log(add);
+// filter() method की मदद से array में से सभी odd numbers अलग कीजिए।
+//  let num=[10,21,30,41,50,63];
+//  let odd=num.filter(item => item % 2 !==0)
+//  console.log(odd);
+// reduce() method का उपयोग करके array में से smallest value (minimum) निकालिए।
+// let num=[10,21,30,41,50,63];
+// let smallest=num.reduce((a,b)=>a<b?a:b)
+// console.log(smallest);
+// reduce() method की सहायता से array में total odd numbers की count निकालिए।
+// let num = [10,21,30,41,50,63];
+// let oddCount = num.reduce((count, current) => {
+//   return current % 2 !== 0 ? count + 1 : count;
+// }, 0);
+// console.log(oddCount);
+// find() method का उपयोग करके पहला string element खोजिए।
+// let arr=[10,21,30,41,"pawan",50,63];
+// let str=arr.find(n=> typeof n==="string")
+// console.log(str);
+// findLast() method क्या करता है? उदाहरण सहित समझाइए।
+// let arr=[10,21,30,41,"pawan",50,63];
+// let newarr=arr.findLast(n=> typeof n==="number")
+// console.log(newarr);
+
+// let arr=[20,50,60,"pawan",70,80,"grover",100]
+// let str=arr.findLast(n=> typeof n ==="string")
+// console.log(str);
+
+// let num = [10,21,30,41,50,63];
+// let even=num.findLast(n=>n%2===0)
+// console.log(even);
+// at() method का उपयोग करके array का last element निकालिए।
+// let arr = ["pawan", "grover", "javascript"];
+// let lastvalue=arr.at(-1);
+// console.log(lastvalue);
+
+// flatMap() method क्या है? map() + flat() से कैसे अलग है?
+
+// fill() method का उपयोग करके array के सभी elements को 0 से replace कीजिए।
+
+// copyWithin() method का उपयोग उदाहरण सहित समझाइए।
+
+// entries() method क्या return करता है? उदाहरण दीजिए।
+
+// keys() और values() methods का उपयोग करके array iterate कीजिए।
+
+// toString() method और join() method में अंतर समझाइए।
+
+// with() method क्या करता है? (ES2023 feature) उदाहरण सहित समझाइए।
+
+// toSorted() और sort() में क्या अंतर है?
+
+// toReversed() और reverse() में क्या अंतर है?
+
+// toSpliced() method क्या है? splice() से कैसे अलग है?
+
+// groupBy() method (proposal/modern JS) का उपयोग क्या है?
+
+// Sparse array (empty slots वाले array) पर map() कैसे behave करता है?
+
+// Array destructuring का उपयोग करके first और second element निकालिए।
+
+// Spread operator (...) का उपयोग करके दो arrays merge कीजिए।
+
+// Array.isArray() और typeof में क्या अंतर है array check करने के लिए?
+
+// Multidimensional array में से specific element access करने का program लिखिए।
+
+// reduceRight() method क्या करता है? उदाहरण सहित समझाइए।
+
+// Array को completely empty करने के अलग-अलग तरीके लिखिए।
