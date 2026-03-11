@@ -756,7 +756,6 @@
 // let str=new Set(dup)
 // console.log(str);
 
-
 // let str = "pawan grover";
 // let uniqueArray = Array.from(new Set(str));
 // console.log(uniqueArray);
@@ -956,38 +955,53 @@
 // let lastvalue=arr.at(-1);
 // console.log(lastvalue);
 
-// flatMap() method क्या है? map() + flat() से कैसे अलग है?
+// 1️⃣ Array का sum निकालिए
+// let arr = [10, 20, 30, 40, 50];
+// let sum = arr.reduce((a, b) => {
+//   return a + b;
+// }, 0);
+// console.log(sum);
 
-// fill() method का उपयोग करके array के सभी elements को 0 से replace कीजिए।
+// 2️⃣ Array का largest number निकालिए
+// let arr = [12, 45, 7, 89, 23];
+// let largest=arr.reduce((a,b)=>a>b?a:b)
+// console.log(largest);
+// 3️⃣ Array को reverse कीजिए
+// let arr = [1, 2, 3, 4, 5];
+// let reverse = arr.reverse();
+// console.log(reverse);
 
-// copyWithin() method का उपयोग उदाहरण सहित समझाइए।
+// 4️⃣ Array में even numbers निकालिए
+// let arr = [10, 15, 22, 33, 40, 55];
+// let even=arr.filter((item)=>item%2===0)
+// console.log(even);
 
-// entries() method क्या return करता है? उदाहरण दीजिए।
+// 5️⃣ Array में odd numbers निकालिए
+// let arr = [11, 20, 33, 44, 55];
+// let odd = arr.filter((item) => item % 2 !== 0);
+// console.log(odd);
 
-// keys() और values() methods का उपयोग करके array iterate कीजिए।
+// 6️⃣ Array में string find कीजिए
+// let arr = [10, 20, "pawan", 30, "hello"];
+// let str=arr.filter((item)=> typeof item==="string")
+// console.log(str);
 
-// toString() method और join() method में अंतर समझाइए।
+// 7️⃣ Array से duplicate remove कीजिए
+// let arr = [10, 20, 10, 30, 40, 20];
+// let num = new Set(arr);
+// console.log(num);
 
-// with() method क्या करता है? (ES2023 feature) उदाहरण सहित समझाइए।
+// 8️⃣ Array के सभी numbers का square निकालिए
+// let arr = [2, 4, 6, 8];
+// let squre=arr.map((n)=>n*2)
+// console.log(squre);
 
-// toSorted() और sort() में क्या अंतर है?
+// 9️⃣ Array में numbers को ascending order में sort कीजिए
+// let arr = [50, 10, 30, 20, 40];
+// let ase = arr.sort((a, b) => a - b);
+// console.log(ase);
 
-// toReversed() और reverse() में क्या अंतर है?
-
-// toSpliced() method क्या है? splice() से कैसे अलग है?
-
-// groupBy() method (proposal/modern JS) का उपयोग क्या है?
-
-// Sparse array (empty slots वाले array) पर map() कैसे behave करता है?
-
-// Array destructuring का उपयोग करके first और second element निकालिए।
-
-// Spread operator (...) का उपयोग करके दो arrays merge कीजिए।
-
-// Array.isArray() और typeof में क्या अंतर है array check करने के लिए?
-
-// Multidimensional array में से specific element access करने का program लिखिए।
-
-// reduceRight() method क्या करता है? उदाहरण सहित समझाइए।
-
-// Array को completely empty करने के अलग-अलग तरीके लिखिए।
+// 🔟 Array में numbers > 25 find कीजिए
+// let arr = [10, 25, 30, 15, 40];
+// let no=arr.find((n)=>n>25)
+// console.log(no);
