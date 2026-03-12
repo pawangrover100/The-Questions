@@ -1005,3 +1005,59 @@
 // let arr = [10, 25, 30, 15, 40];
 // let no=arr.find((n)=>n>25)
 // console.log(no);
+// 1️⃣1️⃣ Array की length निकालिए
+// let arr = [5, 10, 15, 20, 25];
+// let newarr=arr.length
+//     console.log(newarr);
+
+// 1️⃣2️⃣ Array में smallest number निकालिए
+// let arr = [45, 12, 78, 3, 29];
+// let smallest =arr.reduce((curr,index)=>curr>index? index:curr)
+// console.log(smallest);
+
+// 1️⃣3️⃣ Array में number exist करता है या नहीं
+// let arr = [10, 20, 30, 40, 50];
+// let array=arr.includes(20)
+// console.log(array);
+
+// 1️⃣4️⃣ Array के सभी elements को double कीजिए
+// let arr = [2, 4, 6, 8];
+// let array=new Set(arr)
+// console.log(array);
+
+
+
+// 1️⃣5️⃣ Array से negative numbers निकालिए
+// let arr = [10, -5, 20, -8, 30];
+// let array=arr.filter((item)=>item<0)
+// console.log(array);
+
+
+// 1️⃣6️⃣ Array के numbers का average निकालिए
+// let arr = [10, 20, 30, 40];
+// let array=arr.reduce((curr,index)=> {return index +curr },0)
+// console.log(array);
+
+
+// 1️⃣7️⃣ Array में strings count कीजिए
+// let arr = [10, "hello", 20, "pawan", 30];
+// let array=arr.filter(item => typeof item==="string").length
+// console.log(array);
+
+
+// 1️⃣8️⃣ Array को string में convert कीजिए
+// let arr = ["HTML", "CSS", "JavaScript"];
+// let array=arr.join(" ")
+// console.log(array);
+
+
+// 1️⃣9️⃣ Array का last element निकालिए
+// let arr = [100, 200, 300, 400];
+// let array=arr.at(-1)
+// console.log(array);
+
+// 2️⃣0️⃣ Array में numbers > 20 count कीजिए
+// let arr = [10, 25, 30, 5, 40];
+// let array=arr.filter((item)=> item>20).length
+// console.log(array);
+
