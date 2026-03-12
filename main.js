@@ -1061,3 +1061,56 @@
 // let array=arr.filter((item)=> item>20).length
 // console.log(array);
 
+
+// 2️⃣1️⃣ Array के सभी numbers को add करके total निकालिए
+// let arr = [5, 10, 15, 20];
+// let array=arr.reduce((index,curr)=> {return index+curr},0)
+// console.log(array);
+
+// 2️⃣2️⃣ Array में से 50 से बड़ा पहला number find कीजिए
+// let arr = [20, 35, 60, 10, 80];
+// let array=arr.find((n)=>n>50)
+// console.log(array);
+// 2️⃣3️⃣ Array में से केवल numbers निकालिए
+// let arr = [10, "hello", 20, "JS", 30];
+// let array=arr.filter((item)=> typeof item==="number")
+// console.log(array);
+
+// 2️⃣4️⃣ Array के सभी numbers का cube निकालिए
+// let arr = [2, 3, 4];
+// let array=arr.map((n)=>n*2)
+// console.log(array);
+
+// 2️⃣5️⃣ Array में 25 से छोटे numbers निकालिए
+// let arr = [10, 25, 5, 40, 20];
+// let array=arr.filter((item)=>item<25)
+// console.log(array);
+
+// 2️⃣6️⃣ दो arrays को merge कीजिए
+// let a = [10, 20];
+// let b = [30, 40];
+// let c=a.concat(b)
+// console.log(c);
+
+// 2️⃣7️⃣ Array में number की frequency count कीजिए
+// let arr = [10, 20, 10, 30, 10, 20];
+// let array=arr.filter(item => item===10).length
+// console.log(array);
+
+// यह पता लगाइए 10 कितनी बार आया है।
+
+// 2️⃣8️⃣ Array को descending order में sort कीजिए
+// let arr = [5, 1, 9, 3, 7];
+// let array=arr.sort((a,b)=>b-a)
+// console.log(array);
+
+// 2️⃣9️⃣ Array में से last two elements निकालिए
+// let arr = [10, 20, 30, 40, 50];
+// let array=arr.slice(-2)
+// console.log(array);
+
+
+// 3️⃣0️⃣ Array में हर element के साथ "JS" जोड़िए
+// let arr = ["HTML", "CSS", "React"];
+//  let array=arr.map((n)=>n+ " js")
+//  console.log(array);
