@@ -1078,7 +1078,7 @@
 
 // 2️⃣4️⃣ Array के सभी numbers का cube निकालिए
 // let arr = [2, 3, 4];
-// let array=arr.map((n)=>n*2)
+// let array=arr.map((n)=>n*3)
 // console.log(array);
 
 // 2️⃣5️⃣ Array में 25 से छोटे numbers निकालिए
@@ -1114,3 +1114,74 @@
 // let arr = ["HTML", "CSS", "React"];
 //  let array=arr.map((n)=>n+ " js")
 //  console.log(array);
+
+
+// 3️⃣1️⃣ Array में सभी numbers को 5 से multiply कीजिए
+// let arr = [2, 4, 6, 8];
+// let array=arr.map((n)=>n*5)
+// console.log(array);
+// 3️⃣2️⃣ Array में से 20 से बड़े numbers निकालिए
+// let arr = [10, 25, 15, 30, 5];
+// let array=arr.filter((item)=>item>20)
+// console.log(array);
+
+// 3️⃣3️⃣ Array में से केवल strings निकालिए
+// let arr = [10, "HTML", 20, "CSS", 30, "JS"];
+// let array=arr.filter(item => typeof item=== "string")
+// console.log(array);
+
+// 3️⃣4️⃣ Array में से negative numbers निकालिए
+// let arr = [10, -5, 20, -8, 30];
+// let array=arr.filter((item)=>item<0)
+// console.log(array);
+
+// 3️⃣5️⃣ Array में total elements count कीजिए
+// let arr = [5, 10, 15, 20, 25];
+// let array=arr.length
+// console.log(array);
+
+// 3️⃣6️⃣ Array में से first element निकालिए
+// let arr = [100, 200, 300, 400];
+// let array=arr.at(0)
+// console.log(array);
+
+// 3️⃣7️⃣ Array में से second element निकालिए
+// let arr = [50, 60, 70, 80];
+// let array=arr.at(1)
+// console.log(array);
+// 3️⃣8️⃣ Array में सभी elements को uppercase में convert कीजिए
+// let arr = ["html", "css", "javascript"];
+// let array=arr.map((n)=>n.toUpperCase())
+// console.log(array);
+
+// 3️⃣9️⃣ Array में से even numbers count कीजिए
+// let arr = [10, 15, 22, 33, 40, 55];
+// let array=arr.filter((item)=>item %2===0).length
+// console.log(array);
+
+// 4️⃣0️⃣ Array में से odd numbers निकालिए
+// let arr = [11, 20, 33, 44, 55];
+// let array=arr.filter((item)=>item %2!==0)
+// console.log(array);
+
+// 4️⃣1️⃣ Array के सभी elements को string में convert कीजिए
+// let arr = [10, 20, 30, 40];
+// let array=arr.toString()
+// console.log(array);
+
+// 4️⃣2️⃣ Array में smallest number find कीजिए
+// let arr = [45, 12, 78, 3, 29];
+// let array=arr.reduce((pre,curr)=>{ return pre<curr?pre:curr})
+// console.log(array);
+// // 4️⃣3️⃣ Array में largest number find कीजिए
+// let arr = [10, 50, 30, 70, 20];
+// let array=arr.reduce((pre,curr)=>{return pre>curr?pre:curr})
+// console.log(array);
+// 4️⃣4️⃣ Array को alphabetical order में sort कीजिए
+// let arr = ["banana", "apple", "mango", "grapes"];
+// let array=arr.sort()
+// console.log(array);
+// 4️⃣5️⃣ Array में से duplicate values निकालिए
+// let arr = [10, 20, 10, 30, 40, 20];
+// let array=[...new Set(arr)]
+// console.log(array);
