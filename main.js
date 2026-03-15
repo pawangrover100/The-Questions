@@ -1025,31 +1025,25 @@
 // let array=new Set(arr)
 // console.log(array);
 
-
-
 // 1️⃣5️⃣ Array से negative numbers निकालिए
 // let arr = [10, -5, 20, -8, 30];
 // let array=arr.filter((item)=>item<0)
 // console.log(array);
-
 
 // 1️⃣6️⃣ Array के numbers का average निकालिए
 // let arr = [10, 20, 30, 40];
 // let array=arr.reduce((curr,index)=> {return index +curr },0)
 // console.log(array);
 
-
 // 1️⃣7️⃣ Array में strings count कीजिए
 // let arr = [10, "hello", 20, "pawan", 30];
 // let array=arr.filter(item => typeof item==="string").length
 // console.log(array);
 
-
 // 1️⃣8️⃣ Array को string में convert कीजिए
 // let arr = ["HTML", "CSS", "JavaScript"];
 // let array=arr.join(" ")
 // console.log(array);
-
 
 // 1️⃣9️⃣ Array का last element निकालिए
 // let arr = [100, 200, 300, 400];
@@ -1060,7 +1054,6 @@
 // let arr = [10, 25, 30, 5, 40];
 // let array=arr.filter((item)=> item>20).length
 // console.log(array);
-
 
 // 2️⃣1️⃣ Array के सभी numbers को add करके total निकालिए
 // let arr = [5, 10, 15, 20];
@@ -1109,12 +1102,10 @@
 // let array=arr.slice(-2)
 // console.log(array);
 
-
 // 3️⃣0️⃣ Array में हर element के साथ "JS" जोड़िए
 // let arr = ["HTML", "CSS", "React"];
 //  let array=arr.map((n)=>n+ " js")
 //  console.log(array);
-
 
 // 3️⃣1️⃣ Array में सभी numbers को 5 से multiply कीजिए
 // let arr = [2, 4, 6, 8];
@@ -1183,5 +1174,74 @@
 // console.log(array);
 // 4️⃣5️⃣ Array में से duplicate values निकालिए
 // let arr = [10, 20, 10, 30, 40, 20];
+// let array=[...new Set(arr)]
+// console.log(array);
+
+// 4️⃣6️⃣ Array के सभी numbers का square निकालिए
+// let arr = [2, 3, 4, 5];
+// let array=arr.map(n=>n*n)
+// console.log(array);
+
+// 4️⃣7️⃣ Array में से 10 से छोटे numbers निकालिए
+// let arr = [5, 12, 8, 20, 3];
+// let array = arr.filter((item) => item < 10);
+// console.log(array);
+
+// 4️⃣8️⃣ Array में सभी strings की length निकालिए
+// let arr = ["HTML", "CSS", "JavaScript",22,2];
+// let array=arr.filter(n=> typeof n==="string").map(n=>n.length)
+// console.log(array);
+// 4️⃣9️⃣ Array में total sum निकालिए
+// let arr = [10, 20, 30, 40];
+// let array = arr.reduce((index, curr) => {
+//   return index + curr;
+// }, 0);
+// console.log(array);
+
+// 5️⃣0️⃣ Array में average निकालिए
+// let arr = [10, 20, 30, 40];
+// let array = arr.reduce((a, b) => a + b) / arr.length;
+// console.log(array);
+// 5️⃣1️⃣ Array में से 30 से बड़ा पहला number find कीजिए
+// let arr = [10, 25, 35, 40, 5];
+// let array = arr.find((n) => n > 30);
+// console.log(array);
+
+// 5️⃣2️⃣ Array में check कीजिए कि 50 मौजूद है या नहीं
+// let arr = [10, 20, 30, 40, 60];
+// let array=arr.includes(50)
+// console.log(array);
+// 5️⃣3️⃣ Array के सभी numbers को string में convert कीजिए
+// let arr = [10, 20, 30];
+// let array = arr.map((n) => n.toString());
+// console.log(array);
+
+// 5️⃣4️⃣ Array में से केवल even numbers निकालिए
+// let arr = [1, 2, 3, 4, 5, 6];
+// let array = arr.filter((item) => item % 2 === 0);
+// console.log(array);
+// 5️⃣5️⃣ Array में से केवल odd numbers count कीजिए
+// let arr = [1, 2, 3, 4, 5, 6];
+// let array = arr.filter((item) => item % 2 !== 0).length;
+// console.log(array);
+// 5️⃣6️⃣ Array के सभी numbers को 3 से divide कीजिए
+// let arr = [9, 12, 15, 18];
+// let array = arr.map((n) => n / 3);
+// console.log(array);
+// 5️⃣7️⃣ Array में से last element निकालिए
+// let arr = [10, 20, 30, 40];
+// let array = arr.at(-1);
+// console.log(array);
+// 5️⃣8️⃣ Array को reverse कीजिए
+// let arr = [1, 2, 3, 4, 5];
+// let array = arr.reverse();
+// console.log(array);
+
+// 5️⃣9️⃣ Array में से strings को remove कीजिए
+// let arr = [10, "HTML", 20, "CSS", 30];
+// let array = arr.filter((item) => typeof item !== "string")
+// console.log(array);
+// 6️⃣0️⃣ Array में से duplicate numbers remove कीजिए
+// let arr = [1, 2, 2, 3, 4, 4, 5];
 // let array=[...new Set(arr)]
 // console.log(array);
