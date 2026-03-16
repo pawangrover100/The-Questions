@@ -1245,3 +1245,74 @@
 // let arr = [1, 2, 2, 3, 4, 4, 5];
 // let array=[...new Set(arr)]
 // console.log(array);
+
+// 6️⃣1️⃣ Array के सभी numbers का double निकालिए
+// let arr = [3, 6, 9, 12];
+// let array = arr.map((n) => n + n);
+// console.log(array);
+
+// 6️⃣2️⃣ Array में से 15 से बड़े numbers निकालिए
+// let arr = [10, 18, 5, 22, 30];
+// let array = arr.filter((item) => item > 15);
+// console.log(array);
+// 6️⃣3️⃣ Array में से पहला even number find कीजिए
+// let arr = [11, 15, 18, 21, 24];
+// let array = arr.find((n) => n % 2 == 0);
+// console.log(array);
+// 6️⃣4️⃣ Array के सभी numbers का square sum निकालिए
+// let arr = [2, 3, 4];
+// let array = arr.map(n => n*n).reduce((a,b)=>a+b)
+// console.log(array);
+// 6️⃣5️⃣ Array में total elements count कीजिए (loop का उपयोग करके)
+// let arr = [10, 20, 30, 40, 50];
+// let count = 0
+
+// for(let i=0;i<arr.length;i++){
+//  count++
+// }
+
+// console.log(count)
+
+// 6️⃣6️⃣ Array में check कीजिए कि कोई number 100 से बड़ा है या नहीं
+// let arr = [20, 40, 60, 80, 120];
+// let array = arr.some(n => n > 100)
+// console.log(array);
+
+// 6️⃣7️⃣ Array में से केवल numbers निकालिए
+// let arr = [10, "HTML", 20, "CSS", 30, "JS"];
+// let array = arr.filter((item) => typeof item === "number");
+// console.log(array);
+
+// 6️⃣8️⃣ Array के सभी strings को lowercase में convert कीजिए
+// let arr = ["HTML", "CSS", "JAVASCRIPT"];
+// let array = arr.map(n => n.toLowerCase())
+// console.log(array);
+// 6️⃣9️⃣ Array में से last 3 elements निकालिए
+// let arr = [10, 20, 30, 40, 50, 60];
+// let array = arr.slice(-3);
+// console.log(array);
+
+// 7️⃣0️⃣ Array को ascending order में sort कीजिए
+// let arr = [25, 10, 35, 5, 20];
+// let array = arr.sort((a, b) => a - b);
+// console.log(array);
+// 7️⃣1️⃣ Array में से duplicate numbers निकालिए
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let array=let array = [...new Set(arr)]
+// console.log(array);
+// 7️⃣2️⃣ Array में हर number में 10 add कीजिए
+// let arr = [5, 10, 15, 20];
+// let array = arr.map((n) => n + 10);
+// console.log(array);
+// 7️⃣3️⃣ Array में check कीजिए कि सभी numbers positive हैं या नहीं
+// let arr = [10, 20, 30, -5, 40];
+// let array = let array = arr.every(n => n > 0)
+// console.log(array);
+// 7️⃣4️⃣ Array में से smallest number find कीजिए
+// let arr = [45, 12, 78, 3, 29];
+// let array=arr.reduce((pre,curr)=>pre<curr?pre:curr)
+// console.log(array);
+// 7️⃣5️⃣ Array में से largest number find कीजिए
+// let arr = [10, 50, 30, 70, 20];
+// let array=arr.reduce((pre,curr)=>pre>curr?pre:curr)
+// console.log(array);
