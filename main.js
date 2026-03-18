@@ -1316,3 +1316,87 @@
 // let arr = [10, 50, 30, 70, 20];
 // let array=arr.reduce((pre,curr)=>pre>curr?pre:curr)
 // console.log(array);
+
+// 7️⃣6️⃣ Array को reverse किए बिना last element निकालिए
+// let arr = [10, 20, 30, 40, 50];
+// console.log(arr[arr.length - 1]); 
+
+// 7️⃣7️⃣ Array में सभी elements का product निकालिए
+// let arr = [2, 3, 4];
+// let product = arr.reduce((acc, curr) => acc * curr, 1);
+// console.log(product); // 24
+// 7️⃣8️⃣ Array में से duplicate values identify कीजिए (सिर्फ duplicates निकालो)
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let duplicates = arr.filter((item, index) => arr.indexOf(item) !== index);
+// console.log(duplicates);
+
+// 7️⃣9️⃣ Array में सबसे ज्यादा बार आने वाला element find कीजिए
+// let arr = [1, 2, 2, 3, 3, 3, 4];
+
+// let freq = {};
+// let max = 0;
+// let result;
+
+// for (let num of arr) {
+//   freq[num] = (freq[num] || 0) + 1;
+//   if (freq[num] > max) {
+//     max = freq[num];
+//     result = num;
+//   }
+// }
+
+// console.log(result); // 3
+// 8️⃣0️⃣ Nested array को flat कीजिए (1 level)
+// let arr = [1, 2, [3, 4], 5];
+// let array = arr.flat();
+// console.log(array);
+// 8️⃣1️⃣ Array में से falsy values remove कीजिए
+// let arr = [0, 1, false, 2, "", 3, null, undefined];
+// let array = arr.filter(Boolean);
+// console.log(array); // [1, 2, 3]
+// 8️⃣2️⃣ Array को chunk में divide कीजिए (size = 2)
+// let arr = [1, 2, 3, 4, 5, 6];
+// let size = 2;
+// let result = [];
+
+// for (let i = 0; i < arr.length; i += size) {
+//   result.push(arr.slice(i, i + size));
+// }
+
+// console.log(result); // [[1,2],[3,4],[5,6]]
+// 8️⃣3️⃣ Array में unique values count कीजिए
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let count = new Set(arr).size;
+// console.log(count); 
+// 8️⃣4️⃣ Array में से string numbers को number में convert कीजिए
+// let arr = ["10", "20", "30"];
+// let array=arr.map((item)=>Number(item))
+// console.log(array);
+// 8️⃣5️⃣ Array में से vowels count कीजिए
+// let arr = ["a", "b", "e", "g", "i"];
+// let count = arr.filter((item) =>
+//   ["a", "e", "i", "o", "u"].includes(item),
+// ).length;
+// console.log(count);
+// 8️⃣6️⃣ Array में सभी elements को join करके string बनाइए
+// let arr = ["I", "love", "JS"];
+// let array=arr.join(" ")
+// console.log(array);
+// 8️⃣7️⃣ Array में से हर second element निकालिए
+// let arr = [10, 20, 30, 40, 50, 60];
+// let array = arr.filter((item, index) => index % 2 === 1);
+// console.log(array);
+// 8️⃣8️⃣ Array में से first 3 smallest numbers निकालिए
+// let arr = [10, 5, 20, 3, 8, 15];
+// let array = arr.sort((a, b) => a - b).slice(0, 3);
+// console.log(array);
+// 8️⃣9️⃣ Array में check कीजिए कि कोई duplicate है या नहीं
+// let arr = [1, 2, 3, 3, 4, 5];
+// let hasDuplicate = new Set(arr).size !== arr.length;
+// console.log(hasDuplicate);
+// 9️⃣0️⃣ Array को rotate कीजिए (left rotation by 1)
+// let arr = [1, 2, 3, 4, 5];
+// let first = arr.shift(); // first element nikal liya
+// arr.push(first);         // end me daal diya
+// console.log(arr);
+
