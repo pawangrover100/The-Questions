@@ -1319,7 +1319,7 @@
 
 // 7️⃣6️⃣ Array को reverse किए बिना last element निकालिए
 // let arr = [10, 20, 30, 40, 50];
-// console.log(arr[arr.length - 1]); 
+// console.log(arr[arr.length - 1]);
 
 // 7️⃣7️⃣ Array में सभी elements का product निकालिए
 // let arr = [2, 3, 4];
@@ -1367,7 +1367,7 @@
 // 8️⃣3️⃣ Array में unique values count कीजिए
 // let arr = [1, 2, 2, 3, 4, 4, 5];
 // let count = new Set(arr).size;
-// console.log(count); 
+// console.log(count);
 // 8️⃣4️⃣ Array में से string numbers को number में convert कीजिए
 // let arr = ["10", "20", "30"];
 // let array=arr.map((item)=>Number(item))
@@ -1400,3 +1400,59 @@
 // arr.push(first);         // end me daal diya
 // console.log(arr);
 
+// 9️⃣1️⃣ Array में second largest number find कीजिए
+// let arr = [10, 50, 30, 70, 20];
+// let array=arr.sort((a,b)=>a-b).at(-2)
+// console.log(array);
+
+// 9️⃣2️⃣ Array में second smallest number find कीजिए
+// let arr = [45, 12, 78, 3, 29];
+// let array=arr.sort((a,b)=>a-b).at(1)
+// console.log(array);
+// 9️⃣3️⃣ Array में सभी elements unique हैं या नहीं check कीजिए
+// let arr = [1, 2, 3, 4, 5];
+// let array=new Set(arr).size===arr.length
+// console.log(array);
+// 9️⃣4️⃣ दो arrays का intersection निकालिए (common elements)
+// let a = [1, 2, 3, 4];
+// let b = [3, 4, 5, 6];
+// let array=a.filter(item=>b.includes(item))
+// console.log(array);
+// 9️⃣5️⃣ दो arrays का difference निकालिए
+// let a = [1, 2, 3, 4];
+// let b = [3, 4, 5, 6];
+// let array=a.filter(item=>b.includes(item))
+// console.log(array);
+// 9️⃣6️⃣ Array में maximum difference (max - min) निकालिए
+// let arr = [10, 2, 50, 1, 30];
+// let array=arr.sort((a,b)=>a-b)
+// let diff=array[array.length-1]-array[0]
+// console.log(diff);
+// 9️⃣7️⃣ Array में सभी elements palindrome हैं या नहीं check कीजिए
+// let arr = ["madam", "level", "wow"];
+
+// let array = arr.map((n) =>
+//   n === n.split("").reverse().join("") ? "palindrome" : "not palindrome",
+// );
+
+// console.log(array);
+// 9️⃣8️⃣ Array में words की total length निकालिए
+// let arr = ["JS", "is", "fun"];
+// let array=arr.map(n=>n.length)
+// console.log(array);
+// 9️⃣9️⃣ Array में सबसे लंबा word find कीजिए
+// let arr = ["HTML", "CSS", "JavaScript", "React"];
+// let longest = arr.reduce((a,b) => a.length > b.length ? a : b);
+// console.log(longest);
+// 💯 1️⃣0️⃣0️⃣let arr = [1, 2, 3, 4, 5, 6];
+
+// let result = arr.reduce((acc, curr) => {
+//   if(curr % 2 === 0){
+//     acc.even.push(curr);
+//   } else {
+//     acc.odd.push(curr);
+//   }
+//   return acc;
+// }, { even: [], odd: [] });
+
+// console.log(result);
