@@ -1456,3 +1456,130 @@
 // }, { even: [], odd: [] });
 
 // console.log(result);
+
+// 1.	Add "mango" at the end of fruits
+// let fruit =["apple","orange"]
+// fruit.push("mango")
+// console.log(fruit);
+
+// 2.	Remove last element from nums.
+// let num =[1,2,3,4,5]
+// num.pop()
+// console.log(num);
+// 3.	Add 0 at start of arr.
+// let num =[1,2,3,4,5]
+// num.unshift(0)
+// console.log(num);
+// 4.	Remove first element from data.
+// let color=["orange","red","green"]
+// color.shift()
+// console.log(color);
+// 5.	Print length of colors.
+// let color=["orange","red","green"]
+// console.log(color.length);
+// 6.	Check if "cat" exists in array.
+// let animal =["horse","mouse","cat","lion","tiger"]
+// let check=animal.includes("cat")
+// console.log(check);
+// 7.	Join array using comma ,
+// let animal =["horse","mouse","cat","lion","tiger"]
+// let add=animal.join(",")
+// console.log(add);
+// 8.	Merge a and b.
+// let line1="a";
+// let line2="b";
+// let merge=line1.concat(line2)
+// console.log(merge);
+// 9.	Convert "HELLO" into array.
+// let arr="HELLO";
+// let newarr=Array.from(arr)
+// console.log(newarr);
+// 10.	Sort numbers [3,1,2] correctly.
+// let num=[3,1,2]
+// let newarr=num.sort((a,b)=>a-b)
+// console.log(newarr);
+// 11.	Find first value > 50.
+// let num=[2,5,6,20,25,24,55,65,69,77]
+// let arr=num.find((n)=>n>50)
+// console.log(arr);
+// 12.	Find index of "pen".
+// let arr=["pen","animal","horse","orange"]
+// let newarr=arr.findIndex((n)=>n==="pen")
+// console.log(newarr);
+// 13.	Slice first 3 elements.
+//  let num=[2,5,6,20,25,24,55,65,69,77]
+//  let arr=num.slice(0,3)
+//  console.log(arr);
+// 14.	Remove 1 element from index 0.
+//  let num=[2,5,6,20,25,24,55,65,69,77]
+//  num.shift()
+//  console.log(num);
+// // 15.	Add "A" at index 1 using splice.
+//  let num=[2,5,6,20,25,24,55,65,69,77]
+//  num.splice(1,0,"A")
+//  console.log(num);
+// 16.	Check if 100 is present.
+// let num=[2,5,6,20,25,24,55,65,69,77]
+// let arr=num.includes(100)
+// console.log(arr);
+// 17.	Join using "|".
+// let num=[2,5,6,20,25,24,55,65,69,77]
+// let arr=num.join("|")
+// console.log(arr);
+// 18.	Merge 3 arrays.
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// let arr3 = [7, 8, 9];
+
+// let merged = arr1.concat(arr2, arr3);
+
+// console.log(merged);
+// 19.	Get length after push.
+// let num = [2, 5, 6, 20, 25, 24, 55, 65, 69, 77];
+// num.push(100);
+// console.log(num.length);
+// 20.	Convert NodeList-like object using Array.from.
+// let obj = {
+//   0: "HTML",
+//   1: "CSS",
+//   2: "JavaScript",
+//   length: 3,
+// };
+// let arr = Array.from(obj);
+// console.log(arr);
+// ________________________________________
+// ________________________________________
+// 🟡 Medium (21–35)
+// 21.	Remove 2 elements starting index 2.
+// 22.	Add two numbers at index 3.
+// 23.	Slice last 4 values.
+// 24.	Find first even number.
+// 25.	Find index of value > 20.
+// 26.	Sort descending.
+// 27.	Join words with space.
+// 28.	Combine names + surnames arrays.
+// 29.	Remove middle element.
+// 30.	Check "JS" exists.
+// 31.	Add at start & end.
+// 32.	Remove first & last.
+// 33.	Extract between index 2–5.
+// 34.	Create array from "12345" and convert to numbers.
+// 35.	Find first word longer than 5 letters.
+// ________________________________________
+// ________________________________________
+// 🔴 Hard (36–50)
+// 36.	Insert "X" "Y" at middle.
+// 37.	Remove all elements except first 2.
+// 38.	Clone array using slice.
+// 39.	Sort objects by age.
+// 40.	Find user with id 3.
+// 41.	Find index of price > 500.
+// 42.	Merge and then sort ascending.
+// 43.	Remove duplicates (use includes).
+// 44.	Create array from Set using Array.from.
+// 45.	Replace 2 elements starting index 1.
+// 46.	Join numbers with -.
+// 47.	Remove negative numbers using splice.
+// 48.	Add multiple elements at start.
+// 49.	Slice without using negative indexes to get last 3.
+// 50.	Convert arguments object to array.
